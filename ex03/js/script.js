@@ -14,7 +14,7 @@ function calcularMedia() {
 // Função para exibir o resultado da média
 function exibirResultado(media) {
     let saida = document.getElementById("resultado");
-    saida.innerText = `Média do aluno: ${media}`;
+    saida.innerText = "Média do aluno: "+media;
 }
 
 // Função que será executada ao carregar a página
