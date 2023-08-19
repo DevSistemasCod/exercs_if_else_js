@@ -36,7 +36,7 @@ function exibirNumeroDoMes() {
 // Função para exibir o resultado na página
 function exibirResultado(numeroDoMes) {
     let saida = document.getElementById("resultado");
-    saida.innerText = `Número do mês: ${numeroDoMes}`;
+    saida.innerText = "Número do mês: "+numeroDoMes;
 }
 
 // Função principal que é executada quando a página é carregada
